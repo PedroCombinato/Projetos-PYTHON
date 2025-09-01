@@ -1,0 +1,22 @@
+package ex07;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a,b,c,d;
+		double resultado;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		d = sc.nextInt();
+		resultado = (a * b - c * d);
+		System.out.println("Diferença :" + resultado);
+		
+		sc.close();
+
+	}
+
+}
